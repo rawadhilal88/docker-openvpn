@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-MAINTAINER Martin van Beurden <chadoe@gmail.com>
+MAINTAINER Rawad Hilal <rawadhilal88@gmail.com>
 
 COPY ./bin /usr/local/bin
 
