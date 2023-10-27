@@ -21,7 +21,7 @@ jobs:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag eagos/openvpn:$(date +%s)
+      run: docker build . --file Dockerfile --tag eagos/openvpn:latest
       
     - name: Docker Push
-      run: docker push eagos/openvpn:$(date +%s)
+      run: docker push eagos/openvpn:latest
