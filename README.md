@@ -60,7 +60,7 @@ Setup a tiny(12MB), but full featured and secure OpenVPN server without effort u
 * To view the log output run `docker logs openvpn`, to view it realtime run `docker logs -f openvpn`
 
 ## Settings and features
-* OpenVPN 2.6.17
+* OpenVPN (latest version from Alpine registry)
 * Easy-RSA v3.1.5+
 * `tun` mode because it works on the widest range of devices. `tap` mode, for instance, does not work on Android, except if the device is rooted.
 * The UDP server uses`192.168.255.0/24` for clients.
@@ -88,7 +88,7 @@ Setup a tiny(12MB), but full featured and secure OpenVPN server without effort u
 
 * Clients
   * Android, OpenVPN for Android 0.7.46
-  * Windows 10 64 bit using openvpn-2.6.17
+  * Windows 10 64 bit (using latest OpenVPN client)
 
 
 Based on [kylemanna/docker-openvpn](https://github.com/kylemanna/docker-openvpn).

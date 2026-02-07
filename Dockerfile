@@ -5,7 +5,7 @@ MAINTAINER Rawad Hilal <rawadhilal88@gmail.com>
 COPY ./bin /usr/local/bin
 
 RUN set -xe && \
-    apk add --update --no-cache bash easy-rsa git iptables openssl openvpn=2.6.17-r0 && \
+    apk add --update --no-cache bash easy-rsa git iptables openssl openvpn && \
     ln -s /usr/share/easy-rsa/easyrsa /usr/local/bin && \
     chmod 774 /usr/local/bin/*
 
